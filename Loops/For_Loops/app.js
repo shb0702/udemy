@@ -1,4 +1,3 @@
-/*
 // 중첩 루프
 for(let i = 1; i <= 10; i++){
     // 10회 반복    
@@ -8,7 +7,6 @@ for(let i = 1; i <= 10; i++){
         console.log(` j is : ${j}`);
     }
 }
-*/
 
 // 하위 배열이 3개인 배열
 const seatingChart = [
