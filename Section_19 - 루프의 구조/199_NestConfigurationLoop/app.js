@@ -10,7 +10,6 @@ for(let i = 1; i <= 10; i++){
 }
 */
 
-
 // 하위 배열이 3개인 배열
 const seatingChart = [
     ['Kristen', 'Erik', 'Namita'],
