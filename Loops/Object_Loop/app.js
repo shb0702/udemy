@@ -24,6 +24,19 @@ for (let score of scores){
 console.log(total / scores.length);
 
 
+/*
+    returnDay라는 이름의 함수를 작성하세요. 
+    이 함수는 한 개의 매개변수(1~7 사이의 숫자)를 받아 요일을 반환합니다(1은 월요일, 2는 화요일 등). 
+    숫자가 1보다 작거나 7보다 크면 함수는 null을 반환해야 합니다. 
+    일부 국가에서는 일요일을 한 주의 첫째 날로 취급하지만, 이 연습에서는 월요일을 첫째 날로 사용하겠습니다.
+*/
 
-
-
+function returnDay(num) {
+    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    if (num < 1 || num > 7) {
+      return null;
+    } else {
+      return days[num - 1];
+    }
+  }
+  

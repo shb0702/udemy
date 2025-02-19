@@ -48,6 +48,22 @@ for(let num of numbers){
     console.log(num * num)
 }
 
+/*
+    단일 배열 인수를 받는 lastElement라는 함수를 작성하세요. 
+    함수는 배열의 마지막 요소를 반환해야 합니다(해당 요소를 제거하지 않고). 
+    배열이 비어 있으면 함수는 null을 반환해야 합니다.
+*/
+
+function lastElement(arr){
+
+    if (arr.length === 0) {
+        return null;
+    }else {
+        return arr[arr.length - 1];
+    }
+}
+
+   
 
 
 
