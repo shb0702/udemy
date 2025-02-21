@@ -1,3 +1,8 @@
+// 고차 함수란 : 다른 함수와 함께 작동하거나 또는 
+// 다른 함수에서 작동하는 함수를 고급스럽게 표현
+
+
+
 // 함수 내에서 함수를 값으로 반환하는 법
 function makeMysteryFunc(){
     const rand = Math.random();
@@ -25,26 +30,6 @@ function isBetwwen(num){
 function isBetween2(num){
     return num >= 1 && num <= 10
 }
-
-
-function callTwice(func){
-    func();
-    func();
-}
-
-
-function rollDie(){
-    const roll = Math.floor(Math.random() * 6) + 1
-    console.log(roll)
-}
-
-callTwice(rollDie)
-
-
-
-
-
-
 
 
 
